@@ -1,0 +1,43 @@
+
+/* 
+Edgar Hubbert
+245 Application Development
+Mid Term Take Home Exam
+10/16/2026
+*/
+
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #D2B48C;
+    /* light tan brown */
+    margin: 3%;
+}
+
+/* Universal Selector */
+
+*{ box-sizing:border-box; }
+
+/* Type Selector */
+p{ color: black; }
+
+/* Class Selector */
+.orange-text{ color: orange; }
+
+/* ID selector */
+#hours { color:darkorange; }
+
+/* Descendant Selector */
+
+nav a { color: purple; }
+
+/* Child Selector */
+nav > ul { list-style-type: circle; }
+
+table {
+        margin-left: auto;
+        margin-right: auto;
+    } 
